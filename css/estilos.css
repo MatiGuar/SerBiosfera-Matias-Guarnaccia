@@ -1,0 +1,492 @@
+/*      MAIN      */
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #305649;
+  top: 0;
+
+  grid-area: head;
+  
+}
+
+
+nav {
+  background-color: #305649;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  grid-area: nav;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  
+}
+
+nav li {
+  font-size: 15px;
+  text-decoration: none;
+  list-style: none;
+}
+  
+nav ul li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+  
+nav ul li a:hover {
+    background-color: lightgreen;
+    border-radius: 20px;
+}
+
+
+
+body {
+    background-color:#305649;
+}
+
+h1 {
+
+    color: #ffff;
+    padding: 10px 30px 10px 30px;
+    margin-left: 0px;
+    background-color: #305649;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+
+footer {
+  background-color: #305649;
+  padding: 30px;
+  bottom: 0;
+  position: sticky;
+ /*  background-color:#305649; */
+  border: 1px solid #305649;
+  grid-area: footer;
+
+  
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+footer li {
+  list-style: none;
+  
+}
+
+
+/*-----index-----*/
+
+
+#home {
+  display: flex;
+  justify-content: center;
+  grid-area: home;
+}
+
+
+
+.productos {
+  background-color: #7fa89a;
+  padding: 5px 5px 25px 5px;
+  margin: 0px 5px 20px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  grid-area: prod;
+}
+
+.productos h1{
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.productos img {
+  border: 2px solid #ffff;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.imagenProductoPrecio {
+  display: flex;
+  justify-content: space-evenly;
+  grid-area: imgbox;
+  
+}
+
+.container-producto-precio {
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #305649 ;
+  padding: 15px 15px 0px 15px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+
+}
+
+.container-img {
+  width: 200px;
+  height: 200px;
+}
+
+
+.title-product {
+  background-color: #305649;
+  padding: 5px 25px 5px 25px;
+  box-shadow: 0 0.5px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+h4 {
+  font-size: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.proyectos {
+  background-color: #7fa89a;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  grid-area: projec;
+
+}
+
+.proyectos h1 a:hover {
+  color: white;
+}
+
+
+.proyectos img{
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 10px 10px 10px;
+  border: 3px solid #ffff;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  height: 200px;
+  
+
+  } 
+
+.title_project {
+  display: flex;
+  justify-content: center;
+  background-color: #305649;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+}
+.proyectoInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.asesoria {
+  background-color: #7fa89a;
+  padding-bottom: 5px;
+  margin: 0px 5px 20px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  grid-area: ases;
+}
+
+.asesoria h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.asesoria_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7fa89a;
+  border: 2px solid #305649;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px 10px 10px 10px;
+  padding: 2px 10px 2px 10px;
+}
+
+.container h2 {
+  font-size: 20px;
+  background-color: #305649;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 50px 10px 50px;
+
+}
+
+.sobre_nosotros {
+  background-color: #7fa89a;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 5px 150px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  grid-area: abt;
+}
+
+
+.sobre_nosotros p {
+  grid-area: abtext;
+}
+
+
+
+/*     producto.html     */
+
+.productos-page {
+  background-color: #7fa89a;
+  padding: 5px 5px 25px 5px;
+  margin: 0px 5px 20px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.productos_full_page {
+  display: grid;
+  align-items: center;
+
+}
+
+.page-prod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.container-img-prod{
+  border: 2px solid #ffff;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 300px;
+  height: 300px;
+}
+
+h6 {
+  color: white;
+  background-color: #305649;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*     proyecto.html     */
+
+
+
+.proyectos h1 {
+  
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+
+
+.project_title h3 {
+
+  display: flex;
+  justify-content: center;
+  background-color: #305649;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px 20px 20px 20px;
+  padding: 20px ;
+ 
+
+}
+
+.container_deshidratador {
+  display: flex;
+}
+
+.construccion {
+
+  background-color:#305660;
+  border: 1px solid black;
+  border-radius: 40px;
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-right: 200px;
+  margin-left: 10px;
+}
+
+/*    contacto     */
+
+.contacto {
+  background-color: #7fa89a;
+  padding-bottom: 20px;
+}
+
+.contacto ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+li {
+  list-style: none;
+  color:#305649;
+}
+
+/*    sobre nosotros    */
+.container_nosotros{
+  display: flex;
+  flex-direction: column;
+  
+}
+.texto_container  {
+  background-color: #7fa89a;
+  padding: 20px;
+  
+}
+/*-- productos grid --*/
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 0,5fr 1fr;
+  grid-template-areas: 
+  "prod prod prod prod prod"
+  "imgbox imgbox imgbox imgbox imgbox";
+  gap: 10px;
+  
+}
+
+
+/* -- container grid padre proyec-ases-abt-footer --*/
+.container_grid_padre {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows:  1fr 0.3fr 0.1fr;
+  grid-template-areas: 
+  "projec ases"
+  "abt abt"
+  "footer footer";
+}
+
+/**-- sobre nosotros grid --*/
+.sobre_nosotros {  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:  1fr;
+  grid-template-areas: 
+  "abt"
+  "abtxt";
+  gap: 10px;
+}
+
+/*--- media queries --*/
+
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .productos {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 0,1fr 0,5fr 0,5fr 0,5fr 0,5fr 0,5fr;
+
+  }
+  .imagenProductoPrecio {
+   flex-direction: column;
+   align-items: center;
+   
+  }
+  .container-producto-precio {
+    margin-bottom: 10px;
+  }
+
+  .proyectos {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .proyectoInfo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .proyectos p {
+    width: 300px;
+
+  }
+
+  .container_grid_padre {
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.1fr;
+    grid-template-areas: 
+    "projec projec"
+    "ases ases"
+    "abt abt"
+    "footer footer";
+   
+  }
+  
+  .asesoria_container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .asesoria_container p {
+    width: 300px;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+}
