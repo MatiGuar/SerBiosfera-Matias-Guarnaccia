@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ser Biosfera</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/c0128b6e10.js" crossorigin="anonymous"></script>
 </head>
 <body>
    
        
-            <header>
+            <!-- <header>
                 <img class="logo" src="./images/Logo-web-500x250.png" alt="SerBiosfera Logo" width="250px;"  >
 
                 <nav>
@@ -23,11 +25,43 @@
                         <li> <a href="./pages/sobreNosotros.html"> SOBRE NOSOTROS</a></li>
                     </ul>
                 </nav>
-            </header>    
-      
-    
-   
-        
+            </header>   -->  
+           <header> 
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <img class="logo" src="./images/Logo-web-500x250.png" alt="SerBiosfera Logo" width="250px;">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa-solid fa-bars"> </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/producto.html" >PRODUCTOS</a>    
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/proyecto.html">PROYECTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/asesoria.html">ASESORIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/sobreNosotros.html">SOBRE NOSOTROS</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+              </nav>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success btn-propio" type="submit">Buscar</button>
+              </form>  
+            </header>
     </section>
 
     
@@ -36,79 +70,119 @@
             <h1> <a href="./pages/producto.html" >PRODUCTOS</a> </h1>
 
                 <section class="imagenProductoPrecio">
-                    <div class="container-producto-precio">
-                        <img class="container-img"src="https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/styles/article_1200_800/public/2021-11/melaza%C2%A9iStock.jpg.webp?itok=O9FIBtDq" alt="Melaza de caña">
-                        <h4 class="title-product"> MELAZA DE CAÑA - $0 </h4>
-                    </div>
-                    <div class="container-producto-precio">
-                        <img class="container-img" src="https://www.humusabonosorganicos.com/wp-content/uploads/2020/10/humus-abonos-organicos-tienda-en-linea-pa-abonar-harina-de-roca-40-kilos.jpg" alt="Harina de roca">
-                        <h4 class="title-product"> HARINA DE ROCA - $0 </h4>
-                    </div>
-                    <div class="container-producto-precio">
-                        <img class="container-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmH5Z3OtvtQUhZkD0XaAV6Uq_eV0AcI1rGw&usqp=CAU" alt="Cascarilla de arroz">
-                        <h4 class="title-product"> CASCARILLA DE ARROZ - $0 </h4>
-                    </div>
-                    <div class="container-producto-precio">  
-                        <img class="container-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH6VwzLquMBsn0rD2Fl0GtpX66A2UebhGWow&usqp=CAU" alt="Carbonilla vegetal">
-                        <h4 class="title-product"> CARBONILLA VEGETAL - $0 </h4>
-                    </div>
-                    <div class="container-producto-precio">
-                        <img class="container-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs4rhPCz_7Y7U8E8HhoBzyOxRaZ77Zg0XdQw&usqp=CAU" alt="Biocarbón activado" >    
-                        <h4 class="title-product">  BIOCARBÓN ACTIVADO - $0 </h4>
-                    </div>
+                          <div class="container-propio">
+                            <div class="row container-card">
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                        <img class="container-img" src="https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/styles/article_1200_800/public/2021-11/melaza%C2%A9iStock.jpg.webp?itok=O9FIBtDq" alt="Melaza de caña">
+                                        <div class="card-body d-flex row justify-content-center">
+                                        <h5 class="card-title d-flex row justify-content-center nombre-producto">MELAZA DE CAÑA</h5>
+                                        <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                        <img class="container-img " src="https://www.humusabonosorganicos.com/wp-content/uploads/2020/10/humus-abonos-organicos-tienda-en-linea-pa-abonar-harina-de-roca-40-kilos.jpg" alt="Harina de roca">
+                                        <div class="card-body d-flex row justify-content-center">
+                                        <h5 class="card-title d-flex row justify-content-center nombre-producto">HARINA DE ROCA</h5>
+                                        <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                        <img class="container-img " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmH5Z3OtvtQUhZkD0XaAV6Uq_eV0AcI1rGw&usqp=CAU" alt="Cascarilla de arroz">
+                                        <div class="card-body d-flex row justify-content-center">
+                                        <h5 class="card-title d-flex row justify-content-center nombre-producto">CASCARILLA DE ARROZ</h5>
+                                        <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
+                                        </div>
+                                    </div>
+                               
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                        <img class="container-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH6VwzLquMBsn0rD2Fl0GtpX66A2UebhGWow&usqp=CAU" alt="Carbonilla vegetal">
+                                        <div class="card-body d-flex row justify-content-center">
+                                        <h5 class="card-title d-flex row justify-content-center nombre-producto">CARBONILLA VEGETAL</h5>
+                                        <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
+                                        </div>
+                                    </div>
+                                </div>
 
-                </section>    
-        
+                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                    <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                        <img class="container-img " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs4rhPCz_7Y7U8E8HhoBzyOxRaZ77Zg0XdQw&usqp=CAU" alt="Biocarbón activado" > 
+                                        <div class="card-body d-flex row justify-content-center">
+                                        <h5 class="card-title d-flex row justify-content-center nombre-producto">BIOCARBÓN ACTIVADO</h5>
+                                        <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
+                                        </div>
+                                    </div>      
+                                </div>
+                            </div>
+                          </div>                            
+                        </div>
+                    </div>    
+                </section>  
+
         </main>
 
- <section class="container_grid_padre">     
+    <div class="container-proy-ases">       
+        <div class="row">
+            <div class="col-lg-6">
+                <section class="proyectos">
+                    <h1> <a href="./pages/proyecto.html"> PROYECTOS </a> </h1>
 
-            <section class="proyectos">
-                <h1> <a href="./pages/proyecto.html"> PROYECTOS </a> </h1>
-
-                <div class="title_project">
-                    <h3> Deshidratadores </h3>   
-                </div>
-                
-                <article class="proyectoInfo">
-                    <img src="./images/deshidratadorsolarsl.jpg" alt="deshidratador" width="250px">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quidem, repellat exercitationem provident sed mollitia ea, fugiat repudiandae aut eius expedita ipsa dolor laudantium deleniti non possimus blanditiis quaerat necessitatibus vero molestias rerum minima officia laboriosam corrupti. Corrupti aliquid quo unde, deleniti, libero recusandae nostrum eius, error explicabo quia a.
-                    </p>
-                </article>
-
-            </section>
-
-            <aside class="asesoria">
-                
-                <h1> <a href="./pages/asesoría.html"> ASESORÍA </a></h1>
-                <section class="asesoria_container">
-                    <div class="container">
-                        <h2> Cultivo integral</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vitae aperiam aliquid totam, adipisci at nulla impedit vero, obcaecati molestias blanditiis libero! Iusto natus veritatis culpa fuga aperiam officiis earum cum atque delectus mollitia illo corrupti necessitatibus rerum possimus, nemo laboriosam cupiditate totam maiores. Animi, consequatur veritatis? Itaque dolorum libero iure, minus soluta laboriosam praesentium? Alias rerum ipsa, laborum officiis minus soluta dolore doloribus fuga dolores quos voluptatem aliquid unde ab repellendus! Quia voluptatum culpa nisi ipsa, iusto ipsum doloribus.</p>
+                    <div class="title_project">
+                        <h3> Deshidratadores </h3>   
                     </div>
-                    <div class="container">
-                        <h2> Construcción de invernaderos</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vitae aperiam aliquid totam, adipisci at nulla impedit vero, obcaecati molestias blanditiis libero! Iusto natus veritatis culpa fuga aperiam officiis earum cum atque delectus mollitia illo corrupti necessitatibus rerum possimus, nemo laboriosam cupiditate totam maiores. Animi, consequatur veritatis? Itaque dolorum libero iure, minus soluta laboriosam praesentium? Alias rerum ipsa, laborum officiis minus soluta dolore doloribus fuga dolores quos voluptatem aliquid unde ab repellendus! Quia voluptatum culpa nisi ipsa, iusto ipsum doloribus.</p>
-                    </div>    
-            </aside>    
-    
-            <section class="sobre_nosotros">
-                <h1><a href="./pages/sobreNosotros.html">SOBRE NOSOTROS </a></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, officiis enim quas nihil assumenda quae numquam deleniti veniam earum corrupti eveniet cumque nobis doloribus quisquam accusantium corporis quidem repudiandae consectetur!</p>
-            </section>
-
                     
-            <footer>
-                <ul>
-                    <li><a href="./pages/contacto.html"> Contacto</a></li>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="./pages/sobreNosotros.html"> Sobre Nosotros</a></li>
-                </ul>
-            </footer>
+                    <article class="proyectoInfo">
+                        <img src="./images/deshidratadorsolarsl.jpg" alt="deshidratador" width="250px">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quidem, repellat exercitationem provident sed mollitia ea, fugiat repudiandae aut eius expedita ipsa dolor laudantium deleniti non possimus blanditiis quaerat necessitatibus vero molestias rerum minima officia laboriosam corrupti. Corrupti aliquid quo unde, deleniti, libero recusandae nostrum eius, error explicabo quia a.
+                        </p>
+                    </article>
 
- </section>  
+                </section>
+
+            </div>
+            <div class="col-lg-6">
+                <aside class="asesoria">
+                    
+                    <h1> <a href="./pages/asesoría.html"> ASESORÍA </a></h1>
+                    <section class="asesoria_container">
+                        <div class="container">
+                            <h2> Cultivo integral</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vitae aperiam aliquid totam, adipisci at nulla impedit vero, obcaecati molestias blanditiis libero! Iusto natus veritatis culpa fuga aperiam officiis earum cum atque delectus mollitia illo corrupti necessitatibus rerum possimus, nemo laboriosam cupiditate totam maiores. Animi, consequatur veritatis? Itaque dolorum libero iure, minus soluta laboriosam praesentium? Alias rerum ipsa, laborum officiis minus soluta dolore doloribus fuga dolores quos voluptatem aliquid unde ab repellendus! Quia voluptatum culpa nisi ipsa, iusto ipsum doloribus.</p>
+                        </div>
+                        <div class="container">
+                            <h2> Construcción de invernaderos</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vitae aperiam aliquid totam, adipisci at nulla impedit vero, obcaecati molestias blanditiis libero! Iusto natus veritatis culpa fuga aperiam officiis earum cum atque delectus mollitia illo corrupti necessitatibus rerum possimus, nemo laboriosam cupiditate totam maiores. Animi, consequatur veritatis? Itaque dolorum libero iure, minus soluta laboriosam praesentium? Alias rerum ipsa, laborum officiis minus soluta dolore doloribus fuga dolores quos voluptatem aliquid unde ab repellendus! Quia voluptatum culpa nisi ipsa, iusto ipsum doloribus.</p>
+                        </div>    
+                </aside>    
+            </div>
+        </div>
+
+        
+                <section class="sobre_nosotros">
+                    <h1><a href="./pages/sobreNosotros.html">SOBRE NOSOTROS </a></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, officiis enim quas nihil assumenda quae numquam deleniti veniam earum corrupti eveniet cumque nobis doloribus quisquam accusantium corporis quidem repudiandae consectetur!</p>
+                </section>
+
+                        
+                <footer>
+                    <ul>
+                        <li><a href="./pages/contacto.html"> Contacto</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="./pages/sobreNosotros.html"> Sobre Nosotros</a></li>
+                    </ul>
+                </footer>
+
+    </div>  
 
       
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
