@@ -26,50 +26,149 @@
                     </ul>
                 </nav>
             </header>   -->  
-           <header> 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <img class="logo" src="./images/Logo-web-500x250.png" alt="SerBiosfera Logo" width="250px;">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="fa-solid fa-bars"> </span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.html">INICIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/producto.html" >PRODUCTOS</a>    
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/proyecto.html">PROYECTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/asesoria.html">ASESORIA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/sobreNosotros.html">SOBRE NOSOTROS</a>
-                        </li>
-                        </ul>
-                    </div>
+        <header> 
+            <img class="logo" src="./images/Logo-web-500x250.png" alt="SerBiosfera Logo" width="250px;">
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+            <div class="container-nav-propio">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="fa-solid fa-bars"> </span>
+                </button>
+                <div class="collapse navbar-collapse estilo-list-nav" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/producto.html" >PRODUCTOS</a>    
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/producto.html">PROYECTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/asesoria.html">ASESORIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/sobreNosotros.html">SOBRE NOSOTROS</a>
+                    </li>
+                    </ul>
+                    <form class="formulario-buscador">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success btn-propio" type="submit">
+                          <i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+              
                 </div>
-              </nav>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success btn-propio" type="submit">Buscar</button>
-              </form>  
-            </header>
-    </section>
+            </div>
+          
+        </nav>
+                          
 
-    
+                  
+              
+           
+    </section>
 
         <main class="productos">
             <h1> <a href="./pages/producto.html" >PRODUCTOS</a> </h1>
 
-                <section class="imagenProductoPrecio">
+            <section class="imagenProductoPrecio ">
+                <div class="container container-propio">
+                    <div class="row container-card">
+                        <div class="col-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row container-card d-flex justify-content-center">
+                                            <!--****melaza de caña****-->
+                                            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                                                <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                                    <img class="container-img" src="https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/styles/article_1200_800/public/2021-11/melaza%C2%A9iStock.jpg.webp?itok=O9FIBtDq" alt="Melaza de caña">
+                                                    <div class="card-body d-flex row justify-content-center">
+                                                    <h5 class="card-title d-flex row justify-content-center nombre-producto">MELAZA DE CAÑA</h5>
+                                                    <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                             <!--****harina de roca****-->
+                                            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                                                <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                                    <img class="container-img " src="https://www.humusabonosorganicos.com/wp-content/uploads/2020/10/humus-abonos-organicos-tienda-en-linea-pa-abonar-harina-de-roca-40-kilos.jpg" alt="Harina de roca">
+                                                    <div class="card-body d-flex row justify-content-center">
+                                                    <h5 class="card-title d-flex row justify-content-center nombre-producto">HARINA DE ROCA</h5>
+                                                    <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                             <!--****cascarilla de arroz****-->
+                                             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                                                <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                                    <img class="container-img " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmH5Z3OtvtQUhZkD0XaAV6Uq_eV0AcI1rGw&usqp=CAU" alt="Cascarilla de arroz">
+                                                    <div class="card-body d-flex row justify-content-center">
+                                                    <h5 class="card-title d-flex row justify-content-center nombre-producto">CASCARILLA DE ARROZ</h5>
+                                                    <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row container-card d-flex justify-content-center">
+                                             <!--****carbonilla vegetal****-->
+                                            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                                                <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                                    <img class="container-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH6VwzLquMBsn0rD2Fl0GtpX66A2UebhGWow&usqp=CAU" alt="Carbonilla vegetal">
+                                                    <div class="card-body d-flex row justify-content-center">
+                                                    <h5 class="card-title d-flex row justify-content-center nombre-producto">CARBONILLA VEGETAL</h5>
+                                                    <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                             <!--****bio carbon activado****-->
+                                             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                                                <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                                    <img class="container-img " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs4rhPCz_7Y7U8E8HhoBzyOxRaZ77Zg0XdQw&usqp=CAU" alt="Biocarbón activado" > 
+                                                    <div class="card-body d-flex row justify-content-center">
+                                                    <h5 class="card-title d-flex row justify-content-center nombre-producto">BIOCARBÓN ACTIVADO</h5>
+                                                    <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
+                                                    </div>
+                                                </div>      
+                                            </div>
+                                             <!--****agua de mar****-->
+                                             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                                                <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                                    <img class="container-img " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs4rhPCz_7Y7U8E8HhoBzyOxRaZ77Zg0XdQw&usqp=CAU" alt="Biocarbón activado" > 
+                                                    <div class="card-body d-flex row justify-content-center">
+                                                    <h5 class="card-title d-flex row justify-content-center nombre-producto">AGUA DE MAR</h5>
+                                                    <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
+                                                    </div>
+                                                </div>      
+                                            </div>
+            
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" data-bs-target="#carouselExampleIndicators" type="button" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Prev</span>
+                                    </button>
+                                    <button class="carousel-control-next" data-bs-target="#carouselExampleIndicators" type="button" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+   <!-- <section class="imagenProductoPrecio">
                           <div class="container-propio">
                             <div class="row container-card">
                                 <div class="col-lg-3 col-md-6 col-sm-12">
@@ -124,9 +223,10 @@
                           </div>                            
                         </div>
                     </div>    
-                </section>  
-
+                </section> -->      
         </main>
+
+        
 
     <div class="container-proy-ases">       
         <div class="row">
@@ -153,14 +253,50 @@
                     
                     <h1> <a href="./pages/asesoría.html"> ASESORÍA </a></h1>
                     <section class="asesoria_container">
-                        <div class="container">
-                            <h2> Cultivo integral</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vitae aperiam aliquid totam, adipisci at nulla impedit vero, obcaecati molestias blanditiis libero! Iusto natus veritatis culpa fuga aperiam officiis earum cum atque delectus mollitia illo corrupti necessitatibus rerum possimus, nemo laboriosam cupiditate totam maiores. Animi, consequatur veritatis? Itaque dolorum libero iure, minus soluta laboriosam praesentium? Alias rerum ipsa, laborum officiis minus soluta dolore doloribus fuga dolores quos voluptatem aliquid unde ab repellendus! Quia voluptatum culpa nisi ipsa, iusto ipsum doloribus.</p>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item acordion-propio">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button estilo-btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Cultivo
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="estilo-parrafo-asesoria">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam alias doloremque omnis dolores rerum ipsum qui voluptate nisi praesentium!
+                                    </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item acordion-propio">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed estilo-btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Construcción
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p class="estilo-parrafo-asesoria">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam alias doloremque omnis dolores rerum ipsum qui voluptate nisi praesentium!
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item acordion-propio">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed estilo-btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Consumo consciente
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p  class="estilo-parrafo-asesoria">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam alias doloremque omnis dolores rerum ipsum qui voluptate nisi praesentium!
+                                    </p>
+                                </div>
+                              </div>
+                            </div>
                         </div>
-                        <div class="container">
-                            <h2> Construcción de invernaderos</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vitae aperiam aliquid totam, adipisci at nulla impedit vero, obcaecati molestias blanditiis libero! Iusto natus veritatis culpa fuga aperiam officiis earum cum atque delectus mollitia illo corrupti necessitatibus rerum possimus, nemo laboriosam cupiditate totam maiores. Animi, consequatur veritatis? Itaque dolorum libero iure, minus soluta laboriosam praesentium? Alias rerum ipsa, laborum officiis minus soluta dolore doloribus fuga dolores quos voluptatem aliquid unde ab repellendus! Quia voluptatum culpa nisi ipsa, iusto ipsum doloribus.</p>
-                        </div>    
                 </aside>    
             </div>
         </div>
