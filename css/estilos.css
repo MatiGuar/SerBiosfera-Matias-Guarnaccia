@@ -10,7 +10,15 @@ header {
   top: 0;
   padding: 0px 0px 5px 0px;
   grid-area: head;
+  height: 90px;
   
+}
+
+
+
+.logo:hover {
+  transform: skew(5deg, 5deg);
+  transition: all 2s;
 }
 
 
@@ -35,6 +43,10 @@ nav {
   background-color: #305649;
   background-image: linear-gradient(-60deg, #16a085 0%, #2e4949 100%);
  
+}
+
+.container-navbar-propio {
+  padding-left: 20px;
 }
 
  nav ul li a:hover {
@@ -65,8 +77,7 @@ nav {
 }
 
 body {
-    background-color:#305649;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-color: white;
 }
 
 h1 {
@@ -107,7 +118,7 @@ footer {
   background-image: linear-gradient(-60deg, #16a085 0%, #2e4949 70%);
   padding: 30px;
   bottom: 0;
-  position: sticky;
+
  /*  background-color:#305649; */
 
   grid-area: footer;
@@ -115,18 +126,14 @@ footer {
   
 }
 
-footer ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-
+.foot-list-item {
+  color: white;
 }
 
-footer li {
-  list-style: none;
-  
+.linea-style {
+  width: 100px;
+  background-color: white;
 }
-
 
 /*-----index-----*/
 
@@ -135,11 +142,6 @@ footer li {
   display: flex;
   justify-content: center;
   grid-area: home;
-}
-
-.logo:hover {
-  transform: skew(5deg, 5deg);
-  transition: all 2s;
 }
 
 
@@ -162,6 +164,8 @@ footer li {
   margin: 10px 10px 10px 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-style: none;
+  width: 230px;
+  height: 230px;
 }
 
 .nombre-producto {
@@ -170,8 +174,11 @@ footer li {
 }
 
 .btn-ver-producto {
+  font-size: 12px;
   background-image: linear-gradient(-60deg, #16a085 0%, #2e4949 100%);
   border-style: none;  
+  width: 120px;
+
 }
 
 .btn-ver-producto:hover{
@@ -202,14 +209,30 @@ footer li {
   background-image: linear-gradient( #16a085 0%, #57dbdb 70%);
 }
 
+.btn-carrusel {
+  width: 30px;
+  height: 30px;
+  background-color: #2e4949;
+  margin-top: 100px;
+}
+
+span.carousel-control-prev-icon {
+  width: 15px;
+  height: 15px;
+}
+
+span.carousel-control-next-icon {
+  width: 15px;
+  height: 15px;
+}
 /* .container-producto-precio:hover {
   transform:scale(1.2);
   transition: all 2s;
 } */
 
 .container-img {
-  width: 290px;
-  height: 195px;
+  width: 150px;
+  height: 150px;
 }
 
 
@@ -242,7 +265,7 @@ h4 {
 }
 
 
-.proyectos img{
+/* .proyectos img{
   display: flex;
   justify-content: flex-start;
   margin: 10px 10px 10px 10px;
@@ -252,7 +275,7 @@ h4 {
   width: 200px;
   height: 200px;
 }
-
+ */
 
 .proyectos img:hover {
   transform: scale(1.1);
@@ -542,7 +565,10 @@ li {
 }
 
 /*--- media queries --*/
+@media screen and (max-width:991.98px) {
 
+
+}
 @media screen and (max-width: 576px) {
   header {
     flex-direction: column;
