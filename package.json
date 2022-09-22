@@ -1,0 +1,24 @@
+{
+  "name": "serbiosfera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiGuar/SerBiosfera-Matias-Guarnaccia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiGuar/SerBiosfera-Matias-Guarnaccia/issues"
+  },
+  "homepage": "https://github.com/MatiGuar/SerBiosfera-Matias-Guarnaccia#readme",
+  "devDependencies": {
+    "node": "^18.9.0",
+    "nodemon": "^2.0.20",
+    "sass": "^1.55.0"
+  }
+}
