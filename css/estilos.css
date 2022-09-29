@@ -1,9 +1,12 @@
 header {
-  background-color: #305649;
-  background-image: linear-gradient(-60deg, #16a085 0%, #2e4949 100%);
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+header {
+  background-color: #305649;
+  background-image: linear-gradient(-60deg, #16a085 0%, #2e4949 100%);
   top: 0;
   grid-area: head;
 }
@@ -23,7 +26,7 @@ form input {
 }
 
 nav {
-  font-size: 12px;
+  font-size: 20px;
   background-color: #305649;
   background-image: linear-gradient(-60deg, #16a085 0%, #2e4949 100%);
 }
@@ -40,12 +43,17 @@ nav ul li a:hover {
 .navbar-light .navbar-toggler {
   color: white;
   border-color: white;
+  margin-left: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: white;
   display: flex;
   flex-direction: row;
+}
+
+#navbarNav {
+  margin-left: 20px;
 }
 
 .formulario-buscador {
@@ -60,11 +68,18 @@ body {
 }
 
 h1 {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2 {
   font-size: 20px;
   color: white;
   padding: 10px 30px 10px 30px;
   margin-left: 0px;
-  background-color: #305649;
   background-image: #305649;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -106,7 +121,7 @@ footer ul li {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   grid-area: prod;
 }
-.productos h1 {
+.productos h2 {
   display: flex;
   justify-content: center;
 }
@@ -153,8 +168,13 @@ footer ul li {
 }
 
 .container-img {
-  width: 290px;
-  height: 195px;
+  width: 200px;
+  height: 190px;
+}
+
+.container-propio-proyec-as {
+  display: flex;
+  flex-direction: row;
 }
 
 .title-product {
@@ -182,10 +202,9 @@ h4 {
   justify-content: flex-start;
   margin: 10px 10px 10px 10px;
   border: 3px solid white;
-  border-radius: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 140px;
 }
 .proyectos img:hover {
   transform: scale(1.1);
@@ -212,7 +231,7 @@ h4 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   grid-area: ases;
 }
-.asesoria h1 {
+.asesoria h2 {
   display: flex;
   justify-content: center;
 }

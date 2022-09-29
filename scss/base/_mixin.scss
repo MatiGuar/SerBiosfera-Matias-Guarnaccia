@@ -1,0 +1,11 @@
+@mixin tamanio-imagenes ($size) {
+    width:$size*2;
+    height:$size+90;
+
+}
+
+@mixin tamanio-imagenes-secundaria ($size) {
+    width:$size*2;
+    height:$size - 10;
+
+}

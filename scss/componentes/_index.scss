@@ -12,7 +12,7 @@
     margin: 0px 5px 20px 5px;
     box-shadow: $bx-shadow-principal;
     grid-area: prod;
-            h1{
+            h2{
                 display: flex;
                 justify-content: center;
             }
@@ -64,9 +64,14 @@
   }
 
 .container-img {
-    width: 290px;
-    height: 195px;
+    @include tamanio-imagenes(100px) 
   }
+
+
+.container-propio-proyec-as {
+  display: flex;
+  flex-direction: row;
+}
 
 .title-product {
     background-color: $bg-principal;
@@ -76,7 +81,7 @@
   }
   
 h4 {
-    font-size: nth($font-size , $n: 3);
+    font-size: nth($font-size , $n: 4);
     color: $txt-principal;
     display: flex;
     flex-direction: row;
@@ -93,10 +98,8 @@ h4 {
                     justify-content: flex-start;
                     margin: 10px 10px 10px 10px;
                     border: 3px solid #ffff;
-                    border-radius: 50px;
                     box-shadow: $bx-shadow-principal;
-                    width: 200px;
-                    height: 200px;
+                    @include tamanio-imagenes-secundaria (150px);
                     &:hover {
                         transform: scale(1.1);
                         transition: all 1s;
@@ -123,7 +126,7 @@ h4 {
     margin: 10px 5px 20px 5px;
     box-shadow: $bx-shadow-principal;
     grid-area: ases;
-        h1 {
+        h2 {
             display: flex;
             justify-content: center;
         }
@@ -169,7 +172,7 @@ h4 {
   }
   
 .container h2 {
-    font-size: nth($font-size , $n:1 );
+    font-size: nth($font-size , $n:2 );
     background-image: $bg-img-gradient;
     color: $txt-principal;
     box-shadow:$bx-shadow-principal;
