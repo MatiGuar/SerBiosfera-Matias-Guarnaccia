@@ -1,3 +1,4 @@
+@import "base/colores";
 @import "base/variables";
 @import "base/extend";
 @import "base/mixin.scss";
@@ -5,4 +6,8 @@
 @import "base/maps";
 @import "componentes/main";
 @import "componentes/index";
-@import "componentes/productos"
+@import "componentes/productos";
+@import "componentes/proyectos";
+@import "componentes/asesoria";
+@import "componentes/contacto";
+@import "componentes/sobreNosotros";

@@ -1,0 +1,41 @@
+/*     proyecto.html     */
+
+.proyectos  {
+            h1 {
+              padding-top: 10px;
+              padding-right: 30px;
+              padding-bottom: 10px;
+              padding-left: 20px;
+              margin-left: 10px;
+            }
+  
+  }
+  
+  
+  
+  .project_title {
+                 h3 {
+                  display: flex;
+                  justify-content: center;
+                  background-image: linear-gradient(-60deg, #16a085 0%, #2e4949 100%);
+                  color: white;
+                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                  margin: 20px 20px 20px 20px;
+                  padding: 20px ;
+                 }
+}
+  
+  .proyectos .des-img {
+    border-radius: 0px;
+    border-style: none;
+    width: 400px;
+    height: 600px;  
+  }
+  
+  .container-carousel-proyec{
+    background-image: linear-gradient(-60deg, #16a085 0%, #2e4949 100%);
+  }
+  .container_deshidratador {
+    display: flex;
+  }
+  

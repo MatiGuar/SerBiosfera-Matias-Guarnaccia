@@ -44,7 +44,7 @@ form {
 
 .navbar-light .navbar-toggler {
 color: $txt-principal;
-border-color: white;
+border-style: none;
 margin-left: 20px;
 
 }
@@ -65,8 +65,8 @@ flex-direction: row;
   }
       
 body {
-    background-color: $bg-principal;
-    background-image: $bg-img-gradient;
+    background-color: lighten($c-principal, 10%);
+
 }
 
 h1 {
