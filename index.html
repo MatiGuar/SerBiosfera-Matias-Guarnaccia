@@ -11,53 +11,62 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-32x32.png">
     <link rel="manifest" href="./favicon_io/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c0128b6e10.js" crossorigin="anonymous"></script>
+    
 
 </head>
 <body>
    
         
         <header> 
-            <img class="logo" src="./images/Logo-web-500x250.png" alt="SerBiosfera Logo" width="250px;">
-        </header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img class="logo animate__animated animate__flip" src="./images/Logo-web-500x250.png" alt="SerBiosfera Logo" width="250px;">
+            <nav class="navbar navbar-expand-lg">
         
-            <div class="container-nav-propio">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="fa-solid fa-bars"> </span>
-                </button>
-                <div class="collapse navbar-collapse estilo-list-nav" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/producto.html" >PRODUCTOS</a>    
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/producto.html">PROYECTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/asesoria.html">ASESORIA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/sobreNosotros.html">SOBRE NOSOTROS</a>
-                    </li>
-                    </ul>
-                    <form class="formulario-buscador">
-                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                      <button class="btn btn-outline-success btn-propio" type="submit">
-                          <i class="fa-solid fa-magnifying-glass"></i></button>
-                    </form>
-              
+                <div class="container-nav-propio">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="fa-solid fa-bars"> </span>
+                    </button>
+                    <div class="collapse navbar-collapse estilo-list-nav" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/producto.html" >PRODUCTOS</a>    
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/producto.html">PROYECTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/asesoria.html">ASESORIA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/sobreNosotros.html">SOBRE NOSOTROS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href=""> </a>
+                                
+                            </li>
+                        </ul>
+                        <form class="formulario-buscador">
+                          <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
+                          <button class="btn btn-outline-success btn-propio" type="submit">
+                              <i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                  
+                    </div>
                 </div>
-            </div>
-          
-        </nav>
-        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 160" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(48, 86, 73, 1)" offset="0%"></stop><stop stop-color="rgba(71.582, 202.671, 140.497, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,16L12.6,32C25.3,48,51,80,76,88C101.1,96,126,80,152,64C176.8,48,202,32,227,26.7C252.6,21,278,27,303,32C328.4,37,354,43,379,42.7C404.2,43,429,37,455,37.3C480,37,505,43,531,42.7C555.8,43,581,37,606,45.3C631.6,53,657,75,682,77.3C707.4,80,733,64,758,48C783.2,32,808,16,834,21.3C858.9,27,884,53,909,61.3C934.7,69,960,59,985,53.3C1010.5,48,1036,48,1061,56C1086.3,64,1112,80,1137,80C1162.1,80,1187,64,1213,69.3C1237.9,75,1263,101,1288,106.7C1313.7,112,1339,96,1364,80C1389.5,64,1415,48,1440,40C1465.3,32,1491,32,1516,45.3C1541.1,59,1566,85,1592,80C1616.8,75,1642,37,1667,24C1692.6,11,1718,21,1743,21.3C1768.4,21,1794,11,1806,5.3L1818.9,0L1818.9,160L1806.3,160C1793.7,160,1768,160,1743,160C1717.9,160,1693,160,1667,160C1642.1,160,1617,160,1592,160C1566.3,160,1541,160,1516,160C1490.5,160,1465,160,1440,160C1414.7,160,1389,160,1364,160C1338.9,160,1314,160,1288,160C1263.2,160,1238,160,1213,160C1187.4,160,1162,160,1137,160C1111.6,160,1086,160,1061,160C1035.8,160,1011,160,985,160C960,160,935,160,909,160C884.2,160,859,160,834,160C808.4,160,783,160,758,160C732.6,160,707,160,682,160C656.8,160,632,160,606,160C581.1,160,556,160,531,160C505.3,160,480,160,455,160C429.5,160,404,160,379,160C353.7,160,328,160,303,160C277.9,160,253,160,227,160C202.1,160,177,160,152,160C126.3,160,101,160,76,160C50.5,160,25,160,13,160L0,160Z"></path></svg>
+              
+            </nav>
+        </header>
+        
                              
         <h1> Crear vida bajo la tierra, reflejar salud sobre ella.</h1>
                   
@@ -66,43 +75,42 @@
     </section>
 
         <main class="productos">
-            <h2> <a href="./pages/producto.html" >PRODUCTOS</a> </h2>
+            <h2> <a href="./pages/producto.html" class="animate__animated animate__backInLeft" >PRODUCTOS</a> </h2>
 
             <section class="imagenProductoPrecio ">
-                <div class="container container-propio">
+                <div class="container-fluid container-propio">
                     <div class="row container-card">
-                        <div class="col-12">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            
+                        <div class="col-lg-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <div class="row container-card d-flex justify-content-center">
+                                        <div class="row container-fluid d-flex contenedor-cards">
                                             <!--****melaza de caña****-->
-                                            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
                                                 <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                                    <h5 class="card-title d-flex row justify-content-center nombre-producto">MELAZA DE CAÑA</h5>
                                                     <img class="container-img" src="https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/styles/article_1200_800/public/2021-11/melaza%C2%A9iStock.jpg.webp?itok=O9FIBtDq" alt="Melaza de caña de Serbiosfera apta para todo tipo de cultivo">
                                                     <div class="card-body d-flex row justify-content-center">
-                                                    <h5 class="card-title d-flex row justify-content-center nombre-producto">MELAZA DE CAÑA</h5>
                                                     <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
                                                     </div>
                                                 </div>
                                             </div>
                                              <!--****harina de roca****-->
-                                            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3 ">
                                                 <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                                    <h5 class="card-title d-flex row justify-content-center nombre-producto">HARINA DE ROCA</h5>
                                                     <img class="container-img " src="https://www.humusabonosorganicos.com/wp-content/uploads/2020/10/humus-abonos-organicos-tienda-en-linea-pa-abonar-harina-de-roca-40-kilos.jpg" alt="Fertilizante ideal para cultivos, Harina de roca de Serbiosfera">
                                                     <div class="card-body d-flex row justify-content-center">
-                                                    <h5 class="card-title d-flex row justify-content-center nombre-producto">HARINA DE ROCA</h5>
                                                     <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
                                                     </div>
                                                 </div>
                                             </div>
                                              <!--****cascarilla de arroz****-->
-                                             <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                             <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
                                                 <div class="card d-flex align-items-center card-style" style="width: 18rem;">
-                                                    <img class="container-img " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmH5Z3OtvtQUhZkD0XaAV6Uq_eV0AcI1rGw&usqp=CAU" alt="Mejora las características físicas del suelo y de los abonos orgánicos con la cascarilla de arroz de Serbiosfera">
-                                                    <div class="card-body d-flex row justify-content-center">
                                                     <h5 class="card-title d-flex row justify-content-center nombre-producto">CASCARILLA DE ARROZ</h5>
+                                                    <img class="container-img " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmH5Z3OtvtQUhZkD0XaAV6Uq_eV0AcI1rGw&usqp=CAU" alt="Mejora las características físicas del suelo y de los abonos orgánicos con la cascarilla de arroz de Serbiosfera">
+                                                    <div class="card-body d-flex row justify-content-center">    
                                                     <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
                                                     </div>
                                                 </div>
@@ -111,33 +119,33 @@
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="row container-card d-flex justify-content-center">
+                                        <div class="row container-fluid container-card d-flex justify-content-center">
                                              <!--****carbonilla vegetal****-->
-                                            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                            <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
                                                 <div class="card d-flex align-items-center card-style" style="width: 18rem;">
-                                                    <img class="container-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH6VwzLquMBsn0rD2Fl0GtpX66A2UebhGWow&usqp=CAU" alt="Un gran abono para nuestros suelos de cultivo es la Carbonilla vegetal de Serbiosfera">
-                                                    <div class="card-body d-flex row justify-content-center">
                                                     <h5 class="card-title d-flex row justify-content-center nombre-producto">CARBONILLA VEGETAL</h5>
+                                                    <img class="container-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH6VwzLquMBsn0rD2Fl0GtpX66A2UebhGWow&usqp=CAU" alt="Un gran abono para nuestros suelos de cultivo es la Carbonilla vegetal de Serbiosfera">
+                                                    <div class="card-body d-flex row justify-content-center">  
                                                     <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
                                                     </div>
                                                 </div>
                                             </div>
                                              <!--****bio carbon activado****-->
-                                             <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                             <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
                                                 <div class="card d-flex align-items-center card-style" style="width: 18rem;">
+                                                    <h5 class="card-title d-flex row justify-content-center nombre-producto">BIOCARBÓN ACTIVADO</h5>
                                                     <img class="container-img " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs4rhPCz_7Y7U8E8HhoBzyOxRaZ77Zg0XdQw&usqp=CAU" alt="El Biocarbón activado de Serbiosfera es ideal para promover la productividad de los suelos y simultáneamente contribuir a mitigar los efectos del cambio climático" > 
                                                     <div class="card-body d-flex row justify-content-center">
-                                                    <h5 class="card-title d-flex row justify-content-center nombre-producto">BIOCARBÓN ACTIVADO</h5>
                                                     <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
                                                     </div>
                                                 </div>      
                                             </div>
                                              <!--****agua de mar****-->
-                                             <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                             <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
                                                 <div class="card d-flex align-items-center card-style" style="width: 18rem;">
-                                                    <img class="container-img " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs4rhPCz_7Y7U8E8HhoBzyOxRaZ77Zg0XdQw&usqp=CAU" alt="Incluir agua de mar en nuestra dieta contribuye al bienestar general y es ideal para combatir todo tipo de afecciones y enfermedades" > 
-                                                    <div class="card-body d-flex row justify-content-center">
                                                     <h5 class="card-title d-flex row justify-content-center nombre-producto">AGUA DE MAR</h5>
+                                                    <img class="container-img " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs4rhPCz_7Y7U8E8HhoBzyOxRaZ77Zg0XdQw&usqp=CAU" alt="Incluir agua de mar en nuestra dieta contribuye al bienestar general y es ideal para combatir todo tipo de afecciones y enfermedades" > 
+                                                    <div class="card-body d-flex row justify-content-center">                                                   
                                                     <a href="#" class="btn btn-primary btn-ver-producto">VER PRODUCTO</a>
                                                     </div>
                                                 </div>      
@@ -145,13 +153,11 @@
             
                                         </div>
                                     </div>
-                                    <button class="carousel-control-prev" data-bs-target="#carouselExampleIndicators" type="button" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Prev</span>
+                                    <button class="carousel-control-prev btn-carrusel" data-bs-target="#carouselExampleIndicators" type="button" data-bs-slide="prev">
+                                        <i class="fa-solid fa-angle-left fa-style"></i>
                                     </button>
-                                    <button class="carousel-control-next" data-bs-target="#carouselExampleIndicators" type="button" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
+                                    <button class="carousel-control-next btn-carrusel" data-bs-target="#carouselExampleIndicators" type="button" data-bs-slide="next">
+                                        <i class="fa-solid fa-angle-right fa-style"></i>
                                     </button>
                                 </div>
                             </div>
@@ -161,94 +167,63 @@
             </section>  
         </main>
 
-        
+        <section class="row sobre_nosotros">
+            <div class="box-abt container-fluid animate__animated animate__bounce">
+                <h2 class="title-nosotros container-fluid"><a href="./pages/sobreNosotros.html">SOBRE NOSOTROS </a></h2>
+                <p class="p-nosotros">Nos enfocamos en el cultivo consciente, organico y natural. Desde la venta de productos, pasando por la produccion de deshidradtores y el asesoriamiento en distintas areas, destinadas al cultivo.
+                    Vida y prosperidad para el alimento y la salud.
+                </p></p>
+            </div>    
+        </section>       
             
-        <div class="container container-proy-ases">       
+        <div class="container-fluid container-proy-ases">       
             <div class="row container-propio-proyec-as"> 
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <section class="proyectos">
-                        <h2> <a href="./pages/proyecto.html"> PROYECTOS </a> </h2>
+                        <h2> <a href="./pages/proyecto.html" class="animate__animated animate__backInRight"> PROYECTOS </a> </h2>
+                        <h3>Deshidradtores</h3>
+                        <div class="card-group">
+                            <div class="card card-proyec-style">
+                              <img src="images/deshidratadorsolarsl.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">Deshidratador 1</h5>
+                                <p class="card-text"></p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Ideal para cultivos grandes</small>
+                              </div>
+                            </div>
+                            <div class="card card-proyec-style">
+                              <img src="images/deshidratadorsolarsl.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">Deshidratador 2</h5>
+                                <p class="card-text"></p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Ideal para cultivos medianos</small>
+                              </div>
+                            </div>
+                            <div class="card card-proyec-style">
+                              <img src="images/deshidratadorsolarsl.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">Deshidratador 3</h5>
+                                <p class="card-text">
 
-                        <div class="title_project">
-                            <h3> Deshidratadores </h3>   
-                        </div>
-                        
-                        <article class="proyectoInfo">
-                            <div class="col-lg-4 col-md-8 col-sm-12">
-                                <img src="./images/deshidratadorsolarsl.jpg" alt="deshidratador" width="250px">
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quidem, repellat exercitationem provident sed mollitia ea, fugiat repudiandae aut eius expedita ipsa dolor laudantium deleniti non possimus blanditiis quaerat necessitatibus vero molestias rerum minima officia laboriosam corrupti. Corrupti aliquid quo unde, deleniti, libero recusandae nostrum eius, error explicabo quia a.
                                 </p>
+                              </div>
+                              <div class="card-footer">
+                                <small class="text-muted">Ideal para cultivos pequeños y propios, facilidad para guardar y transportar</small>
+                              </div>
                             </div>
-                        </article>
-
+                          </div>
+                          <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 290" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(226, 159, 91, 1)" offset="0%"></stop><stop stop-color="rgba(254, 198, 25, 0.54)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,174L17.1,178.8C34.3,184,69,193,103,183.7C137.1,174,171,145,206,154.7C240,164,274,213,309,203C342.9,193,377,126,411,82.2C445.7,39,480,19,514,53.2C548.6,87,583,174,617,198.2C651.4,222,686,184,720,169.2C754.3,155,789,164,823,145C857.1,126,891,77,926,48.3C960,19,994,10,1029,4.8C1062.9,0,1097,0,1131,19.3C1165.7,39,1200,77,1234,111.2C1268.6,145,1303,174,1337,183.7C1371.4,193,1406,184,1440,174C1474.3,164,1509,155,1543,130.5C1577.1,106,1611,68,1646,62.8C1680,58,1714,87,1749,82.2C1782.9,77,1817,39,1851,62.8C1885.7,87,1920,174,1954,212.7C1988.6,251,2023,242,2057,222.3C2091.4,203,2126,174,2160,149.8C2194.3,126,2229,106,2263,96.7C2297.1,87,2331,87,2366,101.5C2400,116,2434,145,2451,159.5L2468.6,174L2468.6,290L2451.4,290C2434.3,290,2400,290,2366,290C2331.4,290,2297,290,2263,290C2228.6,290,2194,290,2160,290C2125.7,290,2091,290,2057,290C2022.9,290,1989,290,1954,290C1920,290,1886,290,1851,290C1817.1,290,1783,290,1749,290C1714.3,290,1680,290,1646,290C1611.4,290,1577,290,1543,290C1508.6,290,1474,290,1440,290C1405.7,290,1371,290,1337,290C1302.9,290,1269,290,1234,290C1200,290,1166,290,1131,290C1097.1,290,1063,290,1029,290C994.3,290,960,290,926,290C891.4,290,857,290,823,290C788.6,290,754,290,720,290C685.7,290,651,290,617,290C582.9,290,549,290,514,290C480,290,446,290,411,290C377.1,290,343,290,309,290C274.3,290,240,290,206,290C171.4,290,137,290,103,290C68.6,290,34,290,17,290L0,290Z"></path></svg>
                     </section>
-
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <section class="asesoria">
-                        
-                        <h2> <a href="./pages/asesoria.html"> ASESORÍA </a></h2>
-                        <section class="asesoria_container">
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item acordion-propio">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button estilo-btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Cultivo
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p class="estilo-parrafo-asesoria">
-                                            Abarcamos todos los puntos para un cultivo optimo, totalmente saludable y organico.
-                                        </p>
-                                    </div>
-                                </div>
-                                </div>
-                                <div class="accordion-item acordion-propio">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed estilo-btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Construcción
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                    <p class="estilo-parrafo-asesoria">
-                                        Brindamos nuestros conocimientos para el asesoramiento en construccion de invernaderos
-                                    </p>
-                                    </div>
-                                </div>
-                                </div>
-                                <div class="accordion-item acordion-propio">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed estilo-btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Consumo consciente
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p  class="estilo-parrafo-asesoria">
-                                            Consideramos nuestra tarea mas importante, crear consciencia para un consumo saludable. Brindando herramientas e información.
-                                        </p>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </section>    
-                </div>
-            </div> 
+            </div>
+        </div>    
+    
 
-        
-                <section class="sobre_nosotros">
-                    <h2><a href="./pages/sobreNosotros.html">SOBRE NOSOTROS </a></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, officiis enim quas nihil assumenda quae numquam deleniti veniam earum corrupti eveniet cumque nobis doloribus quisquam accusantium corporis quidem repudiandae consectetur!</p>
-                </section>
-
-
-    </div>                          
-    <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 470" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(48, 86, 73, 1)" offset="0%"></stop><stop stop-color="rgba(71.582, 202.671, 140.497, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,47L12.6,94C25.3,141,51,235,76,258.5C101.1,282,126,235,152,188C176.8,141,202,94,227,78.3C252.6,63,278,78,303,94C328.4,110,354,125,379,125.3C404.2,125,429,110,455,109.7C480,110,505,125,531,125.3C555.8,125,581,110,606,133.2C631.6,157,657,219,682,227.2C707.4,235,733,188,758,141C783.2,94,808,47,834,62.7C858.9,78,884,157,909,180.2C934.7,204,960,172,985,156.7C1010.5,141,1036,141,1061,164.5C1086.3,188,1112,235,1137,235C1162.1,235,1187,188,1213,203.7C1237.9,219,1263,298,1288,313.3C1313.7,329,1339,282,1364,235C1389.5,188,1415,141,1440,117.5C1465.3,94,1491,94,1516,133.2C1541.1,172,1566,251,1592,235C1616.8,219,1642,110,1667,70.5C1692.6,31,1718,63,1743,62.7C1768.4,63,1794,31,1806,15.7L1818.9,0L1818.9,470L1806.3,470C1793.7,470,1768,470,1743,470C1717.9,470,1693,470,1667,470C1642.1,470,1617,470,1592,470C1566.3,470,1541,470,1516,470C1490.5,470,1465,470,1440,470C1414.7,470,1389,470,1364,470C1338.9,470,1314,470,1288,470C1263.2,470,1238,470,1213,470C1187.4,470,1162,470,1137,470C1111.6,470,1086,470,1061,470C1035.8,470,1011,470,985,470C960,470,935,470,909,470C884.2,470,859,470,834,470C808.4,470,783,470,758,470C732.6,470,707,470,682,470C656.8,470,632,470,606,470C581.1,470,556,470,531,470C505.3,470,480,470,455,470C429.5,470,404,470,379,470C353.7,470,328,470,303,470C277.9,470,253,470,227,470C202.1,470,177,470,152,470C126.3,470,101,470,76,470C50.5,470,25,470,13,470L0,470Z"></path></svg>                
-
-    <footer>
+    <footer class="container-fluid">
         <ul>
             <li><a href="./pages/contacto.html"> Contacto</a></li>
             <li><a href="#home">Home</a></li>
@@ -258,5 +233,6 @@
     </footer>
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>

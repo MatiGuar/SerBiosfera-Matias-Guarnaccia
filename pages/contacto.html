@@ -11,89 +11,92 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-32x32.png">
     <link rel="manifest" href="../favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c0128b6e10.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <header> 
-      <img class="logo" src="../images/Logo-web-500x250.png" alt="SerBiosfera Logo" width="250px;">
-    </header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img class="logo animate__animated animate__flip" src="../images/Logo-web-500x250.png" alt="SerBiosfera Logo" width="250px;">
+      <nav class="navbar navbar-expand-lg">
           
-          <div class="container-nav-propio">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="fa-solid fa-bars"> </span>
-              </button>
-              <div class="collapse navbar-collapse estilo-list-nav" id="navbarNav">
-                  <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                      <a class="nav-link" href="../index.html">INICIO</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="producto.html" >PRODUCTOS</a>    
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="proyecto.html">PROYECTOS</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="asesoria.html">ASESORIA</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="contacto.html">CONTACTO</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="sobreNosotros.html">SOBRE NOSOTROS</a>
-                  </li>
-                  </ul>
-                  <form class="formulario-buscador">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success btn-propio" type="submit">
-                        <i class="fa-solid fa-magnifying-glass"></i></button>
-                  </form>
-            
-              </div>
-          </div>
-        
-      </nav>
-      </nav>
+        <div class="container-nav-propio">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="fa-solid fa-bars"> </span>
+            </button>
+            <div class="collapse navbar-collapse estilo-list-nav" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="producto.html" >PRODUCTOS</a>    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="proyecto.html">PROYECTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="asesoria.html">ASESORIA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobreNosotros.html">SOBRE NOSOTROS</a>
+                </li>
+                </ul>
+                <form class="formulario-buscador">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success btn-propio" type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+          
+            </div>
+        </div>
+      
+    </nav>
+    </header>
+     
+     
 
     <section class="contacto">
-        <h2> Nuestras redes y conctactos</h2>
+        <h1 class="animate__animated animate__flipInX"> Nuestras redes y conctactos</h1>
+        
+        <hr class="linea-style">
+
+        <div class="container-contacto">
+            <div class="container-formulario">
+                <form class="text-center p-5" action="#!">
+                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre">
+                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Apellido">
+                    <input type="email" id="defaultContactFormName" class="form-control mb-4" placeholder="Email">
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8">Mensaje</textarea>
+                    </div>
+                    <button class="btn btn-block mt-2 btn-form" id="btsubmit" type="submit">Enviar</button>
+                </form>
+            </div>
+
+            <div class="container-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13127.34941217489!2d-59.4254279!3d-34.6588103!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc7313caa5e45b%3A0xc86f63a77809bb3a!2sMercedes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1666427160710!5m2!1ses!2sar" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h4>SerBiosfera - Mercedes - Buenos Aires</h4>
+            </div> 
+       </div>    
+
+       <div class="container-redes">
         <ul>
             <li><i class="fa-brands fa-instagram icono-style"></i></li>
             <li><i class="fa-brands fa-whatsapp icono-style"></i></li>
             <li><i class="fa-regular fa-envelope icono-style"></i></li>
         </ul>
-        <hr class="linea-style">
+    </div>
 
-        <div class="container-contacto">
-                
-                <form class="row g-2">
-                    <div class="mb-3 col-md-7">
-                        <label for="validationDefault01" class="form-label estilo">Nombre</label>
-                        <input type="text" class="form-control" id="validationDefault01" placeholder="Nombre" required>
-                    </div>
-                    <div class="mb-3 col-md-7">   
-                        <label for="validationDefault02" class="form-label estilo">Apellido</label>
-                        <input type="text" class="form-control" id="validationDefault02" placeholder="Apellido">
-                    </div>    
-            </form>  
-                <form class="row g-2">
-                    <div class="mb-3 col-md-8">
-                        <label for="exampleFormControlInput1" class="form-label estilo">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label estilo">Mensaje</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                    </div>
-                </form>
-                <button class="btn-enviar-formu"> Enviar </button>   
-        </div>
   </section>          
 <footer>
     <ul>
-        <li><a href="../pages/contacto.html"> Contacto</a></li>
+        <li><a href="../pages/contacto.html"> Contacto</a>
+        </li>
         <li><a href="../index.html">Home</a></li>
         <li><a href="../pages/sobreNosotros.html"> Sobre Nosotros</a></li>
     </ul>

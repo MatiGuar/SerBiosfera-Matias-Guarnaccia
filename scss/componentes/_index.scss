@@ -10,29 +10,39 @@
 .productos {
     padding: 5px 5px 25px 5px;
     margin: 0px 5px 20px 5px;
-    box-shadow: $bx-shadow-principal;
     grid-area: prod;
+  
             h2{
                 display: flex;
                 justify-content: center;
             }
+
 }
 
 .card-style {
-        background-image: linear-gradient(map-get($card, $key: bg-cards-gradient) );
+        background-color: $c-septenario;
         padding: 15px 0px 0px 0px;
         margin: 10px 10px 10px 10px;
         box-shadow: $bx-shadow-principal;
         border-style: none;
 }
 
+.contenedor-cards {
+  justify-content: center;
+}
+.fa-style {
+  color: $c-secundario;
+  font-size: 30px;
+}
 .nombre-producto {
-    color: $txt-principal;
+    color: $c-terciario;
   
   }
 
 .btn-ver-producto {
-    background-image: $bg-img-gradient;
+    width: 120px;
+    font-size: 12px;
+    background-color: $c-secundario;
     border-style: none;
                         &:hover{
                             transform: scale(0.8);
@@ -40,12 +50,22 @@
                         }  
 }
 
+.btn-carrusel {
+  background-color: none;
+  width: 50px;
+  height: 50px;
+}
 
+.carousel-control-next, .carousel-control-prev {
+  top:120px
+
+}
 .productos img {
     border: 2px solid #ffff;
     box-shadow: $bx-shadow-principal;
   
   }
+ 
   
 .imagenProductoPrecio {
     display: flex;
@@ -54,14 +74,6 @@
     
   }
   
-.container-producto-precio {
-    flex-direction: column;
-    justify-content: center;
-    padding: 15px 15px 0px 15px;
-    display: flex;
-    box-shadow: $bx-shadow-principal;
-    background-image: linear-gradient(map-get($card, $key: bg-cards-gradient) );
-  }
 
 .container-img {
     @include tamanio-imagenes(100px) 
@@ -71,6 +83,7 @@
 .container-propio-proyec-as {
   display: flex;
   flex-direction: row;
+  
 }
 
 .title-product {
@@ -89,37 +102,30 @@ h4 {
   }
 
 .proyectos {
-    box-shadow: $bx-shadow-principal;
-    padding: 0px 0px 90px 10px;
-    margin: 10px 5px 20px 5px;
+    margin: 10px 0px 0px 0px;
     grid-area: projec;
                 img {
-                    display: flex;
-                    justify-content: flex-start;
-                    margin: 10px 10px 10px 10px;
-                    border: 3px solid #ffff;
-                    box-shadow: $bx-shadow-principal;
-                    @include tamanio-imagenes-secundaria (150px);
-                    &:hover {
-                        transform: scale(1.1);
-                        transition: all 1s;
-                    }
-                   
+                 
                 }
                 p {
-                  color: $txt-principal;
+                  color: $c-terciario;
+                }
+                h2 {
+                  display: flex;
+                  justify-content: center;
+                  
                 }
  } 
 
 .title_project {
     display: flex;
     justify-content: center;
-    background-image: $bg-img-gradient;
-    color: $txt-principal;
-    box-shadow: $bx-shadow-principal;
+    color: $c-terciario;
     margin-bottom: 10px;
   } 
- 
+.card-proyec-style {
+  background-color: $c-quinario;
+} 
 .proyectoInfo {
     display: flex;
     justify-content: space-between;
@@ -176,24 +182,103 @@ h4 {
   }
   
 h2 {
-    font-size: nth($font-size , $n:2 );
-    background-image: $bg-img-gradient;
-    color: $txt-principal;
-    box-shadow:$bx-shadow-principal;
+    font-size: nth($font-size , $n:1 );
+    background-color: $c-septenario;
+    color: white;
     padding: 10px 50px 10px 50px;
   
   }
  
 
 .sobre_nosotros {
-   
-    padding: 5px 5px 5px 5px;
-    margin: 0px 5px 150px 5px;
-    box-shadow: $bx-shadow-principal;
+    background-image: url(../images/mano-planta.jpg);
+    background-size: cover;
+    padding: 5px 50px 700px 5px;
+    margin: 0px 5px 0px 0px;
+    justify-content: center;
     grid-area: abt;
+                h2 {
+                  margin-top: 10px;
+                }
                 p{  
                     color: $txt-principal;
-                    grid-area: abtext; 
+                   
                 }
   }
+
+
+
+.box-abt {
+  background-color: $c-terciario;
+  opacity: 0.8;
+  width: 900px;
+  height: 500px;
+  margin: 100px 0px 0px 50px;
+  border: solid 5px $c-quinario;
+  box-shadow: $bx-shadow-principal;
+
+}
+
+@media screen and (max-width: 992px) {
+.sobre_nosotros {
+  background-image: url(../images/mano-planta2.jpg);
+} 
   
+}
+
+
+@media screen and (max-width: 576px) {
+
+h1 {
+    font-size: nth($font-size , $n:2 );
+    
+  }
+header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+nav ul {
+    flex-direction: column;
+    
+  }
+
+.productos {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.contenedor-cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.proyectos {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.proyectoInfo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+}

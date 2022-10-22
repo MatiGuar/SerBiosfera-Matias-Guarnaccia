@@ -1,15 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header {
-    background-color: $bg-principal;
-    background-image: $bg-img-gradient;
+    background-color: $c-terciario;
     @extend %orientacion;
     top: 0;
-    grid-area: head;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
-form {
-    width: 30vw;
+.formulario-buscador {
     flex-direction: row;
+    margin-right: 20px;
     input {
         margin: 0px 0px 0px 15px;
       }  
@@ -22,9 +27,8 @@ form {
   }
 
   nav  {
-    font-size: nth($font-size , $n:2 );
-    background-color: $bg-principal;
-    background-image: $bg-img-gradient;
+    font-size: nth($font-size , $n:3 );
+    background-color: $c-terciario;
         
         ul {
             li {
@@ -48,13 +52,21 @@ border-style: none;
 margin-left: 20px;
 
 }
-
+.nav-link {
+    color: $txt-principal;
+}
 .navbar-light .navbar-nav .nav-link {
-color: $txt-principal;
+color: white;
+background-color: $c-terciario;
 display: flex;
 flex-direction: row;
-
 }    
+
+.fa-classic, .fa-regular, .fa-solid, .far, .fas {
+    color: $c-septenario;
+    font-size: 30px;    
+}
+
 #navbarNav{
     margin-left: 20px;
 }
@@ -65,42 +77,42 @@ flex-direction: row;
   }
       
 body {
-    background-color: lighten($c-principal, 10%);
+    background-color: $c-septenario;
+    font-family: 'Righteous', bold;
 
 }
 
 
 h1 {
     font-size: nth($font-size , $n:1 );
+    background-color: $c-cuaternario;
     color: $txt-principal;
+    padding-left: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
+    
 }
 
 h2 {
     font-size: nth($font-size , $n:2 );
-    color: $txt-principal;
-    padding: 10px 30px 10px 30px;
+    color: $c-terciario;
     margin-left: 0px;
-    background-image: $bg-principal;
-    box-shadow: $bx-shadow-principal;
-    
 }
 
 
 a {
-    color: $txt-principal;
+    color: $c-terciario;
     text-decoration: none;
     &:hover{    
-        color: $txt-principal;
+        color: $c-terciario;
 
     }
 }
 
 footer {
-    background-color: $bg-principal;
-    background-image: $bg-img-gradient;
+    background-color: $c-terciario;
     padding: 30px;
     bottom: 0;
     position: sticky;
@@ -111,6 +123,9 @@ footer {
             justify-content: space-evenly;
             li {
                 list-style: none;
+                a {
+                    color: white;
+                }
             }
         }
 }

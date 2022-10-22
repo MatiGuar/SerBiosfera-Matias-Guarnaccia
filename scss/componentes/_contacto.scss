@@ -1,14 +1,22 @@
 /*    contacto     */
+.container-contacto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 
 
-.container-contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0px 0px 0px 20px;
+}
+.container-formulario {
+    width: 500px;
+    height: 500px;
+    margin: 0px 0px 20px 0px;
+    border: solid 3px $c-cuaternario;
+    border-radius: 20px;
   }
 
   .contacto {
+    
     margin: 10px 0px 0px 0px;
     padding-bottom: 20px;
             h1 {
@@ -16,35 +24,65 @@
               flex-direction: row;
               justify-content: center; 
             }
-              ul {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                li {
-                  list-style: none;
-                  color:#305649;
+}
+.container-mapa {
+                h4 {
+                  color: $c-cuaternario;
                 }
-               
-              }
+}
+.container-redes {
+  margin-top: 20px;
+                  ul {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    }
+                    li {
+                      list-style: none;
+                     
+                    }
 }
 
+
 .icono-style{
- font-size: 100px;
- color: white;
+ font-size: 80px;
+ color: $c-cuaternario;
 }
 
 .linea-style {
   color: white;
 }
 
-.estilo {
-  color: $txt-principal;
-}
 
-.btn-enviar-formu {
-    background-image: $c-terciario-gradiente;
+.btn-form {
+    background-color: $c-cuaternario;
     color: $txt-principal;
     border-style: none;
     box-shadow: $bx-shadow-principal;
 
 }
+
+@media screen and (max-width: 992px){
+
+
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+.container-formulario{
+  width: 300px;
+  height: 500px;
+  margin-bottom: 40px;
+}
+.container-mapa iframe{
+  width: 300px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.contatiner-redes{
+  flex-direction: column;
+  align-items: center;
+}
+} 

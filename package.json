@@ -20,5 +20,8 @@
     "node": "^18.9.0",
     "nodemon": "^2.0.20",
     "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
   }
 }
